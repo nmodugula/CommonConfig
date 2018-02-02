@@ -1,0 +1,11 @@
+---
+envwish: Local saying hi
+---
+spring:
+  profiles: dev
+envwish: Dev env saying hey welcome
+
+---
+spring:
+  profiles: prod
+envwish: Prod env saying hey welcome
